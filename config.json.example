@@ -1,0 +1,10 @@
+{
+    "discordKey": "",
+    "activeRole": "",
+    "managerRole": "",
+    "updateChannel": "",
+    "guildId": "",
+    "mongoPort": "27017",
+    "purgeInterval": 168,
+    "inactivityLimit": 730
+}
