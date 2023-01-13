@@ -5,13 +5,14 @@ Discord Bot that hides used channels from inactive users
 
 # Commands 
 **deactivate** `user`
-> Assigns role that hides used text and voice channels from view.
-> 
+> Removes active role from user
+
 **reactivate** `user`
-> Unassigns the deactived role.
-> 
+> Reassigns active role to user
+
 **reset** 
-> Unassigns role from all users in guild.
-> 
+> Reassigns active role to all users
+
 **purge**
-> Purges channel in which command is used.
+> Removes active role from all users who were inactive for at least a month.
+>(Overrides automatically used weekly purge function)
